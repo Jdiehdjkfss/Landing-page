@@ -8,7 +8,7 @@ body {
     background-color : black;
     font-family : Roboto;
     width : 100%;
-    height : 350px;
+    height : 600px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
   
@@ -22,10 +22,16 @@ body {
 
 h1 {
     color : #F9FAF8;
-    font-size : 48px;
+    font-size : 70px;
     font-weight : 900;
     margin-bottom : 10px;
 }
+
+.title p {
+    font-size : 30px;
+}
+
+
 
 .para {
     color :#F9FAF8;
@@ -51,8 +57,8 @@ ul {
 }
 
 .maimg {
-      width : 600px;
-      height : 210px;
+      width : 400px;
+      height : 400px;
       margin-top : 40px;
       margin-right : 20px;
       border : solid;
@@ -66,6 +72,7 @@ ul {
     border-radius : 5px;
     padding : 10px;
     width : 125px;
+    font-size : 20px;
     
 }
 
@@ -87,6 +94,7 @@ ul {
     flex-direction : row;
     justify-content : center;
     flex-shrink : 1;
+    gap : 50px;
 }
 
 .title {
